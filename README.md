@@ -15,6 +15,22 @@ Toma acciones en tu consola de Vision One por mensaje. El Bot se encargará de r
 
 ### Pasos
 
+#### Crea la VM
+
+```bash
+Crear una VM en Azure con un Ubuntu
+```
+
+#### Actualiza la VM
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt upgrade
+```
+
 #### Descarga el Proyecto
 
 ```bash
