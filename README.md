@@ -31,6 +31,12 @@ sudo apt update
 sudo apt upgrade
 ```
 
+#### Creamos un par de Llaves Privadas-Publicas
+
+```bash
+cd /home/julians/.ssh
+```
+
 #### Descarga el Proyecto
 
 ```bash
