@@ -41,6 +41,30 @@ cd /home/julians/.ssh
 ssh-keygen -t rsa -b 4096 -C "casilla@dominio.com"
 ```
 
+#### Modificar API KEY (dato de VisionOne) en el archivo engine.py
+
+```bash
+Crear casilla en https://temp-mail.org/ o en https://10minutemail.net/?lang=es
+```
+
+```bash
+Dar usuario a Presentador
+```
+
+```bash
+Acceder a portal.xdr.trendmicro.com con la casilla y password= Trend123456!
+```
+
+```bash
+En consola de V1 cree un nuevo Token con rol de MasterAdmin desde Administrarion>Api Keys
+```
+
+#### Inserte dicha ApiKey en el archivo engine.py dentro del directorio src del Repo creado en Git
+
+<p align="center">
+<img src="screenshots/aapi.png" width="400" >
+</p>
+
 #### Descarga el Proyecto
 
 ```bash
@@ -56,18 +80,6 @@ git clone git@github.com:EDSITec/BotTelegram.git
 ```bash
 sudo apt install docker
 ```
-
-#### Instala Docker
-
-```bash
-En consola de V1 cree un nuevo Token con rol de MasterAdmin desde Administrarion>Api Keys
-```
-
-#### Modifique API KEY (dato de VisionOne) en el archivo engine.py
-
-<p align="center">
-<img src="screenshots/aapi.png" width="400" >
-</p>
 
 #### Construir la imagen
 
