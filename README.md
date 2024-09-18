@@ -54,7 +54,21 @@ git clone git@github.com:EDSITec/BotTelegram.git
 #### Instala Docker
 
 ```bash
-sudo apt install podman
+sudo apt install docker
+```
+
+#### Construir Bot de TLG
+
+```bash
+Levantar Cuenta de Telegram y escribirle a botfather
+```
+
+```bash
+/newbot
+```
+
+```bash
+Definir Nombre y usuario de bot. Recibiremos un Token
 ```
 
 #### Modifique API KEY (dato de VisionOne) en el archivo engine.py
