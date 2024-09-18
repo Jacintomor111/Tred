@@ -90,13 +90,11 @@ sudo apt install docker.io
 #### Construir la imagen
 
 ```bash
-docker build -t bot .
+cd /tmp/IA
 ```
 
-#### Ejecutar el contenedor
-
 ```bash
-docker run -e TOKEN_TELEGRAM="YOUR_TELEGRAM_TOKEN" bot
+sudo docker build -t bot .
 ```
 
 #### Construir Bot de TLG
@@ -112,11 +110,19 @@ Levantar Cuenta de Telegram y escribirle a botfather
 ```bash
 Definir Nombre y usuario de bot. Recibiremos un Token
 ```
+#### Ejecutar el contenedor
 
 ```bash
-Es
+sudo docker run -e TOKEN_TELEGRAM="YOUR_TELEGRAM_TOKEN" bot
 ```
 
+```bash
+Accedemos al Bot por Telegram desde el Link provisto por BotFather
+```
+
+```bash
+/start
+```
 Diálogo entre el BOT y el Administrador, donde se le informa las instrucciones para realizar e impactar en su consola de Vision One. Utilizando el comando /help le proporcionara las posibiles acciones que pueda realizar.
 
 <p align="center">
