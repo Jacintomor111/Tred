@@ -43,7 +43,7 @@ git clone git@github.com:EDSITec/BotTelegram.git
 sudo apt install podman
 ```
 
-#### Modifique API KEY en el archivo engine.py
+#### Modifique API KEY (dato de VisionOne) en el archivo engine.py
 
 <p align="center">
 <img src="screenshots/aapi.png" width="400" >
