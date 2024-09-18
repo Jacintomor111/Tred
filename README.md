@@ -78,7 +78,13 @@ git clone git@github.com:EDSITec/BotTelegram.git
 #### Instala Docker
 
 ```bash
-sudo apt install docker
+sudo snap install docker
+```
+```bash
+sudo apt install podman-docker
+```
+```bash
+sudo apt install docker.io
 ```
 
 #### Construir la imagen
