@@ -37,6 +37,12 @@ sudo apt upgrade
 git clone git@github.com:EDSITec/BotTelegram.git
 ```
 
+#### Instala Docker
+
+```bash
+sudo apt install podman
+```
+
 #### Modifique API KEY en el archivo engine.py
 
 <p align="center">
