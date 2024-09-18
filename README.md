@@ -37,7 +37,15 @@ sudo apt upgrade
 cd /home/julians/.ssh
 ```
 
+```bash
+ssh-keygen -t rsa -b 4096 -C "casilla@dominio.com"
+```
+
 #### Descarga el Proyecto
+
+```bash
+cd /tmp
+```
 
 ```bash
 git clone git@github.com:EDSITec/BotTelegram.git
