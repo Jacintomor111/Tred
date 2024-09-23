@@ -46,7 +46,7 @@ sudo apt install docker.io
 #### Creamos un par de Llaves Privadas-Publicas
 
 ```bash
-cd /home/julians/.ssh
+cd /home/{equipoX}/.ssh
 ```
 
 ```bash
