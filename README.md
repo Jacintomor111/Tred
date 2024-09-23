@@ -6,13 +6,6 @@
 
 Toma acciones en tu consola de Vision One por mensaje. El Bot se encargará de realizar el trabajo.
 
-### Crea tu BOT de Telegram con BotFather y genera tu Token
-
-[How To](https://core.telegram.org/bots)
-<p align="center">
-<img src="screenshots/botfather.png" width="400" >
-</p>
-
 ### Pasos
 
 #### Ingresar a la VM en Azure (Ubuntu)
