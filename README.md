@@ -53,6 +53,16 @@ cd /home/{equipoX}/.ssh
 ssh-keygen -t rsa -b 4096 -C "casilla@dominio.com"
 ```
 
+#### Subimos la Llave Pública a nuestro GitHub
+
+```bash
+Dentro de nuestra cuenta de Git, nos dirigimos hacia Settings>SSH and GPG Keys>New SSH Key
+```
+
+```bash
+Copiamos el contenido del archivo id_rsa.pub y lo pegamos dentro de la nueva Key
+``` 
+
 #### Descarga el Proyecto
 
 ```bash
@@ -66,7 +76,7 @@ git clone git@github.com:EDSITec/BotTelegram.git
 #### Construir la imagen
 
 ```bash
-cd /tmp/IA
+cd /tmp/{nombre del Repo creado}
 ```
 
 ```bash
