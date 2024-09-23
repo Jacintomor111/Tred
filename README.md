@@ -86,7 +86,7 @@ sudo docker build -t bot .
 #### Construir Bot de TLG
 
 ```bash
-Levantar Cuenta de Telegram y escribirle a botfather
+Levantar Cuenta de Telegram y escribirle al usuario/contacto de nombre botfather
 ```
 
 ```bash
@@ -96,12 +96,14 @@ Levantar Cuenta de Telegram y escribirle a botfather
 ```bash
 Definir Nombre y usuario de bot. Recibiremos un Token
 ```
-#### Ejecutar el contenedor
+
+#### Ejecutar el contenedor dentro del Ubuntu
 
 ```bash
 sudo docker run -e TOKEN_TELEGRAM="YOUR_TELEGRAM_TOKEN" bot
 ```
 
+#### Interactuamos con el Bot desde Telegram
 ```bash
 Accedemos al Bot por Telegram desde el Link provisto por BotFather
 ```
