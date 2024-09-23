@@ -133,23 +133,7 @@ Puedo validar que el bot este funcionando ejecutando el comando /chiste en Teleg
 Acceder a portal.xdr.trendmicro.com con usuario y password indicado por el Presentador
 ```
 
-```bash
-En consola de V1 cree un nuevo Token con rol de MasterAdmin desde Administrarion>Api Keys
-```
-
-#### Inserte dicha ApiKey en el archivo engine.py dentro del directorio src del Repo creado en Git
-
-<p align="center">
-<img src="screenshots/aapi.png" width="400" >
-</p>
-
 ## Proceso :robot:
-
-Dentro de la consola Trend Micro Vision One, debemos generar un API Key la cual va a ser utilizada por el BOT.
-Debemos editar el archivo engine.py, modificando el parametro token y agregaremos el valor de la API Key que nos otorga la consola de Vision One.
-
-
-*** IMPORTANTE: ASIGNAR SOLO LOS PERMISOS NECESARIOS A LA API KEY ***
 
 ### Envío IoC al Bot
 
