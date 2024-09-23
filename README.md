@@ -63,7 +63,7 @@ cd /tmp
 ```
 
 ```bash
-git clone git@github.com:EDSITec/BotTelegram.git
+git clone git@github.com:{cuenta_tlg}/{proyecto_tlg}.git
 ```
 
 #### Construir la imagen
