@@ -157,5 +157,5 @@ Puedo validar que el bot este funcionando ejecutando el comando /chiste en Teleg
 ### Impacto del acciones de respuesta globales en Trend Micro Vision One
 
 <p align="center">
-<img src="screenshots/respuesta.ioc.png" width="800" >
+<img src="screenshots/respuestaioc.png" width="800" >
 </p>
