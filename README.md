@@ -127,11 +127,6 @@ Puedo validar que el bot este funcionando ejecutando el comando /chiste en Teleg
 <img src="screenshots/chiste.png" width="800" >
 </p>
 
-#### Acceso a VisionOne
-
-```bash
-Acceder a portal.xdr.trendmicro.com con usuario y password indicado por el Presentador
-```
 
 ## Proceso :robot:
 
