@@ -15,13 +15,13 @@ Toma acciones en tu consola de Vision One por mensaje. El Bot se encargará de r
 
 ### Pasos
 
-#### Crea la VM
+#### Ingresar a la VM en Azure (Ubuntu)
 
 ```bash
-Crear una VM en Azure con un Ubuntu
+utilizar Putty para acceder a la VM con los datos provistos
 ```
 
-#### Actualiza la VM
+#### Actualiza la VM e instale Docker
 
 ```bash
 sudo apt update
@@ -29,6 +29,18 @@ sudo apt update
 
 ```bash
 sudo apt upgrade
+```
+
+```bash
+sudo snap install docker
+```
+
+```bash
+sudo apt install podman-docker
+```
+
+```bash
+sudo apt install docker.io
 ```
 
 #### Creamos un par de Llaves Privadas-Publicas
@@ -41,30 +53,6 @@ cd /home/julians/.ssh
 ssh-keygen -t rsa -b 4096 -C "casilla@dominio.com"
 ```
 
-#### Modificar API KEY (dato de VisionOne) en el archivo engine.py
-
-```bash
-Crear casilla en https://temp-mail.org/ o en https://10minutemail.net/?lang=es
-```
-
-```bash
-Dar usuario a Presentador
-```
-
-```bash
-Acceder a portal.xdr.trendmicro.com con la casilla y password= Trend123456!
-```
-
-```bash
-En consola de V1 cree un nuevo Token con rol de MasterAdmin desde Administrarion>Api Keys
-```
-
-#### Inserte dicha ApiKey en el archivo engine.py dentro del directorio src del Repo creado en Git
-
-<p align="center">
-<img src="screenshots/aapi.png" width="400" >
-</p>
-
 #### Descarga el Proyecto
 
 ```bash
@@ -73,18 +61,6 @@ cd /tmp
 
 ```bash
 git clone git@github.com:EDSITec/BotTelegram.git
-```
-
-#### Instala Docker
-
-```bash
-sudo snap install docker
-```
-```bash
-sudo apt install podman-docker
-```
-```bash
-sudo apt install docker.io
 ```
 
 #### Construir la imagen
@@ -146,6 +122,21 @@ Puedo validar que el bot este funcionando ejecutando el comando /chiste en Teleg
 <img src="screenshots/chiste.png" width="800" >
 </p>
 
+#### Acceso a VisionOne
+
+```bash
+Acceder a portal.xdr.trendmicro.com con usuario y password indicado por el Presentador
+```
+
+```bash
+En consola de V1 cree un nuevo Token con rol de MasterAdmin desde Administrarion>Api Keys
+```
+
+#### Inserte dicha ApiKey en el archivo engine.py dentro del directorio src del Repo creado en Git
+
+<p align="center">
+<img src="screenshots/aapi.png" width="400" >
+</p>
 
 ## Proceso :robot:
 
